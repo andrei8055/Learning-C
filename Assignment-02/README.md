@@ -8,3 +8,8 @@ tokyo:~/LearningC/ # ./assignment2
 3.140000 is a float!
 Hello, World! is a char!
 ```
+
+## Compile
+```
+gcc assigment2.c -o assigment2
+```
