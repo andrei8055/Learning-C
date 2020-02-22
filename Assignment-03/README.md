@@ -17,3 +17,8 @@ Hello Jimmy Smith!
 ```
 gcc assignment3.c -o assignment3
 ```
+
+## Resources
+```
+http://sekrit.de/webdocs/c/beginners-guide-away-from-scanf.html
+```
