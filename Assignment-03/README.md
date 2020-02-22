@@ -13,3 +13,7 @@ Enter your last name: Smith
 Hello Jimmy Smith!
 ```
 
+## Compile
+```
+gcc assignment3.c -o assignment3
+```
