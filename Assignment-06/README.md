@@ -13,6 +13,10 @@ Enter a denominator: 9
 There is a remainder!# 
 ```
 
+## Compile
+```
+gcc assigment6.c -o assigment6
+```
 
 
 
