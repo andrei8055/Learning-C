@@ -9,3 +9,8 @@ tokyo:~/LearningC/ # ./assignment4
 Enter the radius of your circle: 12.34
 The area of your circle is 478.145386
 ```
+
+## Compile + link math library
+```
+gcc assigment4.c -o assigment4 -lm
+```
