@@ -17,7 +17,13 @@ The solution using the '+' operator is: -1.000000
 The solution using the '-' operator is: 1.285714, but you might want to double-check that...
 ```
 
+## Compile
+```
+gcc assigment7.c -o assigment7 -lm
+```
 
+## Resources (complex numbers)
+- https://en.cppreference.com/w/c/numeric/complex/csqrt
 
 
 
