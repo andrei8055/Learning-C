@@ -34,5 +34,24 @@ int main() {
     printf("The solution using the '+' operator is: %.5f (imaginary part is %+.5fi)\n", creal(positive_solution), cimag(positive_solution));
     printf("The solution using the '-' operator is: %.5f (imaginary part is %+.5fi)\n", creal(negative_solution), cimag(negative_solution));
 
+    float positive_solution_check = a * cpow(positive_solution, 2) + b * positive_solution + c;
+    float negative_solution_check = a * cpow(negative_solution, 2) + b * negative_solution + c;
+
+    //round down after 5 digits (0.00001 -> 0.00000) (-0.00001 -> 0.00000)
+    positive_solution_check = floorf(positive_solution_check * 100000) / 100000;
+    negative_solution_check = floorf(negative_solution_check * 100000) / 100000;
+
+    printf("Checking..\n");
+
+    if(positive_solution_check == 0)
+        printf("Positive solution is VALID\n");
+    else
+        printf("Positive solution is INVALID. Result of the positive solution is %.23f \n", positive_solution_check);
+
+    if(negative_solution_check == 0)
+        printf("Negative solution is VALID\n");
+    else
+        printf("Negative solution is INVALID. Result of the negative solution is %.23f \n", negative_solution_check);
+
     return 1;
 }
