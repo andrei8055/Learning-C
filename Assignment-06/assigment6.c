@@ -11,12 +11,10 @@ int main() {
     unsigned int denominator;
 
     printf("Enter a numerator:");
-    if(fgets(n, 10, stdin))
-        n[strcspn(n, "\n")] = 0;
+    fgets(n, 10, stdin);
 
     printf("Enter a denominator:");
-    if(fgets(d, 10, stdin))
-        d[strcspn(d, "\n")] = 0;
+    fgets(d, 10, stdin);
 
     numerator = strtoul(n, NULL, 10);
     denominator = strtoul(d, NULL, 10);
