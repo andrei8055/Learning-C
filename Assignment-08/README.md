@@ -27,3 +27,8 @@ tokyo:~/LearningC/ # ./assignment8
 Enter a number between 1 and 500: 550
 Your number was not in any of our ranges.#
 ```
+
+## Compile
+```
+gcc assigment8.c -o assigment8
+```
