@@ -8,3 +8,8 @@ Hint: Play with the `sizeof()` function to determine how many bytes of storage a
 tokyo:~/LearningC/ # ./assignment10                                 
 The array has 10 elements.#   
 ```
+
+## Compile
+```
+gcc assigment10.c -o assigment10
+```
