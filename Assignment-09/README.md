@@ -12,3 +12,8 @@ Hello, Jimmy Smith#
 tokyo:~/LearningC/ # ./assignment9 Jimmy Paul Smith                  
 Usage: ./assignment9 Firstname Lastname#
 ```
+
+## Compile
+```
+gcc assigment9.c -o assigment9
+```
