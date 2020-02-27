@@ -22,3 +22,8 @@ Enter a test score: 99
 Would you like to continue? Y/N N
 86.83 is the average.
 ```
+
+## Compile
+```
+gcc assigment11.c -o assigment11
+```
