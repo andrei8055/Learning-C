@@ -11,3 +11,8 @@ After flipping the coin 5000 times, the results were
 2536 heads
 2464 tails
 ```
+
+## Compile
+```
+gcc assigment12.c -o assigment12
+```
