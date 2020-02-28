@@ -6,3 +6,8 @@ Intialize and delcare an `int` variable with any value. Assign a pointer variabl
 tokyo:~/LearningC/ # ./assignment14                                       
 The value of our pointer is: -1081381992
 ```
+
+## Compile
+```
+gcc assigment14.c -o assigment14
+```
