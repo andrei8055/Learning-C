@@ -6,3 +6,8 @@ Create/define a structure (`struct`) outside of `main()` that includes an `int`,
 tokyo:~/LearningC/ # ./assignment20                                         
 This is the int: 50, this is the char: W, this is the float: 3.14
 ```
+
+## Compiling
+```
+gcc assigment20.c -o assigment20
+```
