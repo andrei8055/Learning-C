@@ -8,3 +8,14 @@ Extra Credit: Use a function prototype to establish your function and then add a
 tokyo:~/LearningC/ # ./test                                         
 Hello, World!# 
 ```
+
+## Compile
+```
+gcc assigment17.c -o assigment17
+```
+
+## Notes
+- Compiling without a function prototype throws a compile warning
+```
+warning: implicit declaration of function ‘hello’; did you mean ‘ftello’? [-Wimplicit-function-declaration]
+```
