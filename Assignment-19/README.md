@@ -8,3 +8,11 @@ Print a success or failure message to the terminal.
 tokyo:~/LearningC/ # ./assignment19                                        
 Memory was successfully allocated.# 
 ```
+
+## Compiling
+```
+gcc assigment19.c -o assigment19
+```
+
+## Note
+- in C, the cast of malloc return pointer is not mandatory
