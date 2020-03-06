@@ -40,13 +40,22 @@ int main(){
     else
         printf("`open()` succeed\n");
 
+    //Write to file
     write_status_code = write(filedescriptor, buf, sizeof(buf)/sizeof(char));
     if(write_status_code != sizeof(buf)/sizeof(char)){
-        printf("`write()` failed");
+        printf("`write()` failed\n");
         return -2;
     }
     else
-        printf("%d bytes written to file", write_status_code);
+        printf("%d bytes written to file\n", write_status_code);
+
+    //Close file descriptor
+    if(close(filedescriptor) < 0){
+        printf("`close()` failed\n");
+        return -3;
+    }
+    else
+        printf("`close()` succeed\n");
 
     return 1;
 }
