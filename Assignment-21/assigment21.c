@@ -36,6 +36,9 @@ int main(){
     print_employee(employees[0]);
     print_employee(employees[1]);
 
+    free(e1);
+    free(e2);
+
     return 1;
 }
 
