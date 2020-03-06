@@ -49,3 +49,8 @@ ID: 678
 SSN: 4521
 Title: Junior Engineer#      
 ```
+
+## Compiling
+```
+gcc assigment21.c -o assigment21
+```
